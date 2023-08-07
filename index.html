@@ -8,6 +8,10 @@
   
   <title>Frontend Mentor | Product preview card component</title>
 
+  <!-- external CSS link -->
+  <link rel="stylesheet" href="css/style.css">
+
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,28 +19,30 @@
   </style>
 </head>
 <body>
-  <section id="product">
-    <picture>
-      <source media="(max-width:768px )" srcset="images/image-product-desktop">
-      <source media="(min-width:796px )" srcset="images/image-product-mobile">
-      <img src="images/image-product-desktop" alt="Perfume">
-
-    </picture>
-  </section>
-  <section id="description">
-    <h1>Perfume</h1>
-    <h2>Gabrielle Essence Eau De Parfum</h2>
-    <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-      Perfumer-Creator for the House of CHANEL.</p>
-
-      <ul id="price">
-        <li>$149.99</li>
-        <li>$169.99</li>
-
-      </ul>
-      <button><link rel="icon" type="icon"  href="icon-cart.svg">Add to Cart</button>
-
+  <main>
+    <section id="product">
+      <picture>
+        <source media="(max-width:768px )" srcset="images/image-product-desktop.jpg">
+        <source media="(min-width:796px )" srcset="images/image-product-mobile.jpg">
+        <img src="images/image-product-desktop.jpg" alt="Perfume">
+  
+      </picture>
     </section>
+    <section id="description">
+      <h1>Perfume</h1>
+      <h2>Gabrielle Essence Eau De Parfum</h2>
+      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.</p>
+  
+        <ul id="price">
+          <li>$149.99</li>
+          <li>$169.99</li>
+  
+        </ul>
+        <button> <link rel="icon" type="icon-cart"  href="icon-cart.svg">Add to Cart</button>
+  
+      </section>
+  </main>
 
   
   
