@@ -117,13 +117,16 @@ ul >li {
   .attribution a {
     color: hsl(228, 45%, 44%); 
   }
+  button> img {
+    height: 26px;
+    width: 20px;
+  }
   
   /* Media query for mobile (375px) */
   @media (max-width: 375px) {
     body {
-      display: flex;
       flex-direction: column;
+      
     }
   }
-  /* Media query for desktop (1440px) */
  
