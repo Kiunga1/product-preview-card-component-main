@@ -42,7 +42,7 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
   font-size: 0.875rem;
   display: grid;
-  place-content: center;
+  place-items: center;
   margin: 1rem;
   background-color: hsl(30, 38%, 92%)
   ;
@@ -61,10 +61,13 @@ body {
   border-radius: 0.5rem;
   overflow: hidden;
   max-width: 650px;
+  
 }
 @media (min-width: 600px) {
   .product {
       grid-template-columns: 1fr 1fr;
+      
+      
       
   }
 }
